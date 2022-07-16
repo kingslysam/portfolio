@@ -87,6 +87,8 @@ nav.navbar {
 }
 nav.navbar.scrolled {
   padding: 0px 0;
+  transition: 2s ease-in-out;
+  transition-delay: 2s;
   background: linear-gradient(90.21deg, #000000 -5.91%, #7F8487 111.58%);
 }
 nav.navbar a.navbar-brand {
@@ -539,7 +541,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /************ Footer Css ************/
 .footer {
   padding: 0 0 50px 0;
-  background-image: url('./assets/img/footer-bg.png');
+  background-color: black;
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;

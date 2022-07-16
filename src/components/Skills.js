@@ -41,7 +41,7 @@ export const Skills = () => {
                             <h2>
                                 Skills
                             </h2>
-                            <p>NATEST TU<br></br> TENAAAAA</p>
+                            <p>Skills that I'm aquient</p>
                             <Carousel responsive={responsive} infinite={true} className="skill-slider">
                                 <div className="item">
                                     <img src={java} alt="Image"/>
