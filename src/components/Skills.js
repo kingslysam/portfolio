@@ -5,11 +5,11 @@ import html from '../assets/HTMLandCSS.jpg';
 import java from '../assets/Java.jpg';
 import js from '../assets/JavaScript.jpg';
 import php from '../assets/PHP.jpg';
-import mysql from '../assets/MySql.png';
+import mysql from '../assets/MySql.jpg';
 import rct from '../assets/React.jpg';
 import python from '../assets/Python.jpg';
-import postgres from '../assets/PostgreSQL.png';
-import colorSharp from '../assets/img/color-sharp.png'
+import postgres from '../assets/PostgresSQL.jpg';
+import colorSharp from '../assets/img/bg-pic1.jpg';
 
 export const Skills = () => {
     const responsive = {
@@ -20,7 +20,7 @@ export const Skills = () => {
         },
         desktop: {
             breakpoint: { max: 3000, min: 1024 },
-            items: 3
+            items: 5
         },
         tablet: {
             breakpoint: { max: 1024, min: 464 },
@@ -45,7 +45,7 @@ export const Skills = () => {
                             <Carousel responsive={responsive} infinite={true} className="skill-slider">
                                 <div className="item">
                                     <img src={java} alt="Image"/>
-                                    <h5>Java Development.</h5>
+                                    <h5>Java</h5>
                                 </div>
                                 <div className="item">
                                     <img src={html} alt="Image"/>
@@ -53,27 +53,27 @@ export const Skills = () => {
                                 </div>
                                 <div className="item">
                                     <img src={js} alt="Image"/>
-                                    <h5>JavaScript Development.</h5>
+                                    <h5>JavaScript</h5>
                                 </div>
                                 <div className="item">
                                     <img src={rct} alt="Image"/>
-                                    <h5>Front-end Development with React library.</h5>
+                                    <h5>React</h5>
                                 </div>
                                 <div className="item">
                                     <img src={php} alt="Image"/>
-                                    <h5>Back-end development with PHP.</h5>
+                                    <h5>PHP</h5>
                                 </div>
                                 <div className="item">
                                     <img src={mysql} alt="Image"/>
-                                    <h5>Database Managment with MySQL.</h5>
+                                    <h5>MySQL</h5>
                                 </div>
                                 <div className="item">
                                     <img src={postgres} alt="Image"/>
-                                    <h5>Database Management with Postgres SQL.</h5>
+                                    <h5>Postgres SQL.</h5>
                                 </div>
                                 <div className="item">
                                     <img src={python} alt="Image"/>
-                                    <h5>Python development.</h5>
+                                    <h5>Python</h5>
                                 </div>
                             </Carousel>
                         </div>

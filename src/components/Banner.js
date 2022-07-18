@@ -42,11 +42,11 @@ export const Banner = () => {
      <section className="banner" id="home">
          <Container>
              <Row className="align-items-center">
-                 <Col xs={12} md={6} xl={7}>
+                 <Col xs={12} md={6} xl={5}>
                      <span className="tagline">Welcome to my portfolio</span>
                      <h1>{`Hi I'm Samuel Killagane`}<br/><span className="wrap">{text}</span></h1>
                  </Col>
-                 <Col xs={12} md={6} xl={8}>
+                 <Col xs={12} md={6} xl={6.0}>
                      <img src={headerImg} alt="Headder Img" />
                  </Col>
              </Row>

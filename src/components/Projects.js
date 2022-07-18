@@ -28,15 +28,15 @@ export const Projects = () => {
     ];
 
     return (
-        <section className="project" id="projects">
-            <Container>
+        <section className="project-box" id="projects">
+            <Container className="project">
                 <Row>
                     <Col size={12}>
                         <TrackVisibility>
                             {({ isVisible }) =>
                                 <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
                                     <h2>Projects</h2>
-                                    <p>Here is the list of projects i have done and associated with.</p>
+                                    <p>Here is a list of projects I have done and associated with.</p>
                                     <Tab.Container id="projects-tabs" defaultActiveKey="first">
                                         <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                                             <Nav.Item>

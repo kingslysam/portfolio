@@ -59,7 +59,7 @@ export const NavBar =()=>{
                             </div>
                         <button className="vvd" onClick={() => console.log('connect')}>
                             <span>
-                                <Nav.Link href="#connect" color="#fff">Let's connect</Nav.Link>
+                                <Nav.Link href="#connect" color="#fffff">Let's connect</Nav.Link>
                             </span>
                         </button>
                         </span>

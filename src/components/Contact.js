@@ -1,6 +1,6 @@
 import { useState, useRef } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import contactImg from "../assets/img/contact-img.svg";
+import contactImg from "../assets/img/maps.jpg";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 import emailjs from '@emailjs/browser'
@@ -33,7 +33,11 @@ export const Contact = () => {
                     <Col size={12} md={6}>
                         <TrackVisibility>
                             {({ isVisible }) =>
+                                <div>
+                                    <h3>Samuel Yona Killagane<br/>samyona48@gmail.com <br/>Dar es Salaam, Tanzania</h3>
+
                                 <img className={isVisible ? "animate__animated animate__zoomIn" : ""} src={contactImg} alt="Contact Us"/>
+                                </div>
                             }
                         </TrackVisibility>
                     </Col>
