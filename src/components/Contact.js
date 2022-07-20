@@ -58,7 +58,7 @@ export const Contact = () => {
                                                 <input type="email" name="email" placeholder="Email Address" required/>
                                             </Col>
                                             <Col size={12} sm={6} className="px-1">
-                                                <input type="tel" name="subject" placeholder="Subject" required/>
+                                                <input type="text" name="subject" placeholder="Subject" required/>
                                             </Col>
                                             <Col size={12} className="px-1">
                                                 <textarea rows="6" name="message" placeholder="Message" required></textarea>
