@@ -1,4 +1,4 @@
-import {Container, Row, Col} from 'react-bootstrap';
+import {Container, Row, Col, Nav, Button} from 'react-bootstrap';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import html from '../assets/HTMLandCSS.jpg';
@@ -10,6 +10,7 @@ import rct from '../assets/React.jpg';
 import python from '../assets/Python.jpg';
 import postgres from '../assets/PostgresSQL.jpg';
 import colorSharp from '../assets/img/bg-pic1.jpg';
+import myResume from '../assets/Samuel.pdf';
 
 export const Skills = () => {
     const responsive = {
@@ -76,11 +77,15 @@ export const Skills = () => {
                                     <h5>Python</h5>
                                 </div>
                             </Carousel>
+                            <br/>
+                            <a href={myResume} download="Samuel Killagane">
+                                <Button variant="outline-primary">Resume</Button>{' '}
+                            </a>
                         </div>
                     </Col>
                 </Row>
             </Container>
-            <img className="background-image-left" src={colorSharp}/>
+            <img className="background-image-left" src={colorSharp} />
         </section>
     )
 }
